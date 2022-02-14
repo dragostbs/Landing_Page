@@ -103,7 +103,7 @@ a:visited {
 }
 
 .btn-p:hover {
-  background-color: rgba(44, 90, 72, 0.7);
+  background-color: rgba(110, 214, 255, 0.7);
 }
 
 .circ1 {
@@ -150,7 +150,8 @@ a:visited {
   display: inline-block;
   font-size: 12px;
   margin-left: 8.5%;
-  margin-top: 15px;
+  margin-top: 10px;
+  margin-bottom: 20px;
 }
 
 .card:hover {
@@ -167,7 +168,6 @@ a:visited {
 
 .footer {
   display: flex;
-  margin-top: 25px;
   margin-left: 50px;
   gap: 20px;
   font-weight: lighter;
@@ -175,4 +175,38 @@ a:visited {
 
 .rights {
   margin-left: 68%;
+}
+
+#look {
+  margin: 10px 0 0 30px;
+  position: relative;
+  font-weight: lighter;
+  display: grid;
+  grid-gap: 40px;
+  grid-template-columns: repeat(2, minmax(600px, 1fr));
+}
+
+.look-img {
+  height: 200px;
+  background-size: cover;
+  border-radius: 12px;
+  margin-bottom: 12px;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.5);
+}
+
+.look-img:hover {
+  transform: scale(1.05);
+}
+
+li {
+  margin-top: 60px;
+}
+
+.transparent {
+  background-color: rgb(255, 255, 255);
+  border: 2px solid rgb(44, 45, 90, 0.7);
+  border-radius: 25px;
+  margin-top: 15px;
+  margin-right: 200px;
+  margin-left: 200px;
 }
