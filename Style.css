@@ -210,3 +210,7 @@ li {
   margin-right: 200px;
   margin-left: 200px;
 }
+
+.transparent:hover {
+  transform: scale(1.01);
+}
